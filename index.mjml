@@ -1,0 +1,41 @@
+
+<mj-body>
+
+  <!-- Above Header -->
+  <mj-section padding-bottom=0>
+    <mj-column padding=0>
+      <mj-text align='left'>
+        <mj-link>View in Browser/Mobile</mj-link>
+      </mj-text>
+    </mj-column>
+    <mj-column>
+      <mj-text align='right'>asdf</mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- Header -->
+  <mj-section padding-top=0>
+    <mj-column>
+      <mj-image src='enews-logo-12.11.jpg'></mj-image>
+    </mj-column>
+  </mj-section>
+
+  <!-- Banner -->
+  <mj-section></mj-section>
+
+  <!-- Article -->
+  <mj-section></mj-section>
+
+  <!-- Editor Header -->
+  <mj-section></mj-section>
+
+  <!-- Editor Image -->
+  <mj-section></mj-section>
+
+  <!-- Article -->
+  <mj-section></mj-section>
+
+  <!-- Social -->
+  <mj-section></mj-section>
+
+</mj-body>
