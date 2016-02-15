@@ -3,39 +3,247 @@
 
   <!-- Above Header -->
   <mj-section padding-bottom=0>
-    <mj-column padding=0>
-      <mj-text align='left'>
-        <mj-link>View in Browser/Mobile</mj-link>
+    <mj-column padding-bottom=0>
+      <mj-text>
+        <a href="#" style="color:#716C6B; text-decoration: none;";>View in Browser/Mobile</a>
       </mj-text>
     </mj-column>
-    <mj-column>
-      <mj-text align='right'>asdf</mj-text>
+    <mj-column padding-bottom=0>
+      <mj-text align='right' color='#716C6B'>February 2016</mj-text>
     </mj-column>
   </mj-section>
 
   <!-- Header -->
   <mj-section padding-top=0>
-    <mj-column>
+    <mj-column padding-bottom=0>
       <mj-image src='enews-logo-12.11.jpg'></mj-image>
     </mj-column>
   </mj-section>
 
-  <!-- Banner -->
-  <mj-section></mj-section>
+  <!-- Main Article -->
+  <mj-section padding-top=0>
+    <mj-column>
+      <mj-image src='header-img.jpg' width='100%'></mj-image>
+      <mj-text padding-top=0 padding-bottom=0>
+        <h1>Measuring a Foundation's Performance</h1>
+      </mj-text>
+      <mj-text padding-top=0 padding-bottom=0>
+        <p>The Spencer Foundation, one of the nation’s premier education research foundations, must spend 5 percent of its Read More > than $525 million endowment each year. Yet how can one define “success” when it comes to this expenditure—particularly when its effects will not be evident for years to come? Michael McPherson, president of the Spencer Foundation, addressed this conundrum in a special lecture on November 10 held at Northwestern University’s Evanston campus.</p>
+        <p><a href="#" class='link'>Read More ></a></p>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- CTA Bar -->
+  <!-- <mj-section full-width="full-width" background-color="#B6ACD1" color='#401F68'>
+    <mj-column>
+      <mj-text top=0 padding-bottom=0>
+        <h1>Tell Us What You Think About IPR Communications in Our Survey</h1>
+      </mj-text>
+      <mj-text padding-bottom=0>
+        <p>Help us improve our communications and publications—and enter to win a gift card—by taking our short online survey (if you haven’t already) by Monday, December 21 here. <a class='link' href="#">Read More ></a></p>
+      </mj-text>
+    </mj-column>
+  </mj-section> -->
+
+  <!-- <mj-section padding-top='0px' padding-bottom='10px'>
+    <mj-raw><hr style='height:5px; background-color: #B6ACD1; border-width:0;' />
+  </mj-section> -->
 
   <!-- Article -->
-  <mj-section></mj-section>
+  <mj-section>
+    <!-- Sidebar -->
+    <mj-column width='40%'>
+      <mj-text><h2>News</h2></mj-text>
+      <mj-text align='center' padding-bottom='0'>
+        <h3>A $200 Million Primer on School Reform</h3>
+      </mj-text>
+      <mj-image src="school-reform.jpg"></mj-image>
+      <mj-text align='left' padding-top='0'>
+        <p>On December 1 at Northwestern, author Dale Russakoff discussed her best-selling book, The Prize: Who's in Charge of America's Schools? <a href="#" class='link'>Read More ></a></p>
+      </mj-text>
 
-  <!-- Editor Header -->
-  <mj-section></mj-section>
+      <mj-text align='center' padding-bottom='0'>
+        <h3>Infographic: Learning New Words? Linguistic Context Is Key for Infants</h3>
+      </mj-text>
+      <mj-image src="infographic.png"></mj-image>
+      <mj-text align='left' padding-top='0' padding-bottom='0'>
+        <p>In a recent study, IPR psychologist Sandra Waxman, doctoral student Brock Ferguson, and their co-author discover that even before infants can speak many words, they use the few words they already know to learn Read More >. This infographic highlights the results from that study, where the researchers tracked babies’ eye movements to discover how they learn words. <a href="#" class='link'>Read More ></a></p>
+      </mj-text>
 
-  <!-- Editor Image -->
-  <mj-section></mj-section>
+      <mj-text align='center' padding-top='0' padding-bottom='0'>
+        <h2>Faculty Awards &amp; Honors</h2>
+      </mj-text>
+      <mj-text align='left' padding-top='0' padding-bottom='0'>
+        <p>
+        IPR anthropologist <b>Thomas McDade</b> has been elected a fellow of the American Association for the Advancement of Science (AAAS), one of the nation's leading scientific communities.
 
-  <!-- Article -->
-  <mj-section></mj-section>
+        IPR economist <b>Burton Weisbrod</b> and communications studies researcher and IPR associate <b>Eszter Hargittai</b> delivered keynote addresses in November. Weisbrod spoke about his research on nonprofits in Chicago, and Hargittai discussed “digital natives” in Columbus, Ohio.
 
-  <!-- Social -->
-  <mj-section></mj-section>
+        IPR economist <b>Jonathan Guryan</b> was named co-chair of the Abdul Latif Jameel Poverty Action Lab’s State and Local Innovation Initiative. It seeks to encourage randomized evaluations on many issues, such as crime, education, health, and housing.
+        </p>
+      </mj-text>
+
+      <mj-button align='left' font-family="Arial, sans-serif" background-color="#836EAA" color="white"  href='http://www.ipr.northwestern.edu/faculty-experts/faculty-honors-media-coverage/2015-faculty-honors.html'>Read about other faculty awards</mj-button>
+
+      <mj-text>
+        <h2>Faculty in the Media</h2>
+      </mj-text>
+
+      <mj-text padding-top=0>
+        <h3>A wealthy governor and his friends are remaking Illinois</h3>
+        <p class='publication'>The New York Times</p>
+        <p>The New York Times cites research by political scientist and IPR associate Benjamin Page on the political views of the top 1 percent and how they differ from those of the average citizen.</p>
+      </mj-text>
+
+      <mj-text>
+        <h3>Supreme court's affirmative action comments are "dead wrong" experts say</h3>
+        <p class='publication'>The Guardian</p>
+        <p>Following U.S. Supreme Court Justice Antonin Scalia's suggestion that African Americans might benefit from attending “slower-track” schools, The Guardian quotes IPR sociologist Anthony Chen, who says there’s "little credible evidence" to support this “mismatch theory."</p>
+      </mj-text>
+
+      <mj-text>
+        <h3>As Pope Francis calls for compassion toward the poor in Africa, what are African churches doing?</h3>
+        <p class='publication'>The Washington Post</p>
+        <p>In a Washington Post editorial, political scientist and IPR associate Rachel Beatty Riedl and her co-author outline the rise of Pentecostal and charismatic churches in Africa and their implications for poverty.</p>
+      </mj-text>
+
+      <mj-text>
+        <h3>Demand, meet supply</h3>
+        <p class='publication'>The Economist</p>
+        <p>The Economist cites IPR economist Jonathan Guryan's finding that fathers with a job and a college degree spend Read More > than double the time with their kids than do less-educated dads.</p>
+      </mj-text>
+
+      <mj-button align='left' font-family="Arial, sans-serif" background-color="#836EAA" color="white"  href='http://www.ipr.northwestern.edu/faculty-experts/faculty-honors-media-coverage/2015-faculty-honors.html'>Find these and other clips</mj-button>
+    </mj-column>
+
+    <!-- Main Content -->
+    <mj-column width='60%'>
+      <mj-text color="#4E2A84"><h1>Faculty Research</h1></mj-text>
+
+      <mj-text>
+        <h3>Faculty Spotlight: Leslie McCall</h3>
+        <img style='float:right; margin: 13px 0 13px 13px;' src='faculty-spotlight.jpg' /><p>Long before Occupy Wall Street or presidential candidates like Bernie Sanders raised the issue of income inequality, IPR sociologist Leslie McCall was fixated on the topic. As a doctoral student at the University of Wisconsin–Madison, in the late 1980s and 1990s, an era when the barometer on “inequality started increasing,” she began following its upward climb. Since then, her interest in inequality has fueled two books and many journal articles and book chapters, as well as a growing list of projects. <a href="#" class='link'>Read More ></a></p>
+      </mj-text>
+
+      <mj-text>
+        <h3>Helping Central Banks Think About Uncertainty and Expectations</h3>
+        <p>IPR economist Charles F. Manski was an invited presenter at the third International Monetary Fund (IMF) Statistical Forum in Frankfurt, on November 19. Manski presented his work on expectations to approximately 200 international economists, statisticians, central bankers, and other invited guests. He emphasized it was particularly important for central banks in situations where heterogeneity is a central determinant of policy outcomes. He went on to address his research insights on how to collect, analyze, and interpret expectations data, drawing on his extensive past work on measuring probabilistic expectations. <a href="#" class='link'>Read More ></a></p>
+      </mj-text>
+
+      <mj-text>
+        <h3>Connecting Compensation and Skill</h3>
+        <p>When you go to work for the government versus a private sector company, you likely do so with the understanding that you will earn less working for your state or local government than say, Tim Cook at Apple. But is this true? And, if so, why? Recent research by law professor and IPR associate Max Schanzenbach reassesses this public-sector pay gap—the difference in earnings between public- and private-sector workers—to determine how differences in skill might account for those in pay. <a href="#" class='link'>Read More ></a></p>
+      </mj-text>
+
+      <mj-text>
+        <h3>Fan Forums Emulate (or Mirror) History Class</h3>
+        <p>Twenty years ago, when a student wanted to learn about a historical topic outside the classroom, the options were limited to a trip to the library or the bookstore. Today, she or he can access vast amounts of digital content after a quick search engine result or join an online fan community. But now that almost anyone can post historical fact (or fiction) on the web, has this jeopardized legitimate historical discourse? Digital learning expert and IPR associate Jolie Matthews examines how people talk about history in an online fan community. <a href="#" class='link'>Read More ></a>
+        </p>
+      </mj-text>
+
+      <mj-text>
+        <h3>The Unintended Effects of Expanding Educational Access</h3>
+        <p>Does increasing access to education always lead to positive effects? Not necessarily, finds economist and IPR associate Nicola Bianchi, who studied an Italian reform in the 1960s that increased enrollment in college-level STEM (science, technology, engineering, and mathematics) programs by 216 percent. Tracking data for thousands of students affected by the reform, Bianchi unearthed the unintended consequences of making education Read More > accessible. <a href="#" class='link'>Read More ></a></p>
+      </mj-text>
+
+      <mj-text color="#4E2A84"><h1>New IPR Working Papers</h1></mj-text>
+      <mj-text>
+        <h3>"How Do Right-to-Carry Laws Affect Crime Rates? Coping with Ambiguity Using Bounded-Variation Assumptions" <a href="#" class='link'>(WP-15-17)</a></h3>
+        <p><i>Charles F. Manski and John V. Pepper</i></p>
+        <p>Despite dozens of studies, research on crime in the United States has struggled to reach consensus about the impact of right-to-carry (RTC) gun laws. Empirical results are highly sensitive to seemingly minor variations in the data and model. How then should research proceed? Manski and Pepper think that policy analysis is most useful if researchers perform inference under a spectrum of assumptions of varying identifying power, recognizing the tension between the strength of assumptions and their credibility. With this in mind, they formalize and apply a class of assumptions that flexibly restrict the degree to which policy outcomes might vary across time and space. They find there are no simple answers; empirical findings are sensitive to assumptions, and vary over crimes, years, and states.</p>
+      </mj-text>
+
+      <mj-text>
+        <h3>"Family Disadvantage and the Gender Gap in Behavioral and Educational Outcomes" <a href="#" class='link'>(WP-15-16)</a></h3>
+        <p><i>David Autor, David Figlio, Krzysztof Karbownik, Jeffrey Roth, and Melanie Wasserman</i></p>
+        <p>The authors explore why boys fare worse than girls in households of low socioeconomic status—both behaviorally and educationally—by using matched birth certificates, health, disciplinary, academic, and high school graduation records for Read More > than 1 million children born in Florida between 1992 and 2002. Relative to their sisters, boys born to low-education and unmarried mothers, raised in low-income neighborhoods, and enrolled at poor-quality public schools have higher rates of truancy and behavioral problems throughout elementary and middle school, exhibit Read More > behavioral and cognitive disability, perform worse on standardized tests, are less likely to graduate high school, and are Read More > likely to commit serious crimes as juveniles. A surprising implication of these findings is that, relative to white siblings, black boys fare worse than their sisters in significant part because black children—both boys and girls—are raised in Read More > disadvantaged family environments.</p>
+      </mj-text>
+
+      <mj-text>
+        <h3>"The Political Relevance of Irrelevant Events" (WP-15-14) <a href="#" class='link'>(WP-15-14)</a></h3>
+        <p><i>Ethan Busby, James Druckman, and Alexandria Fredendall</i></p>
+        <p>Do events irrelevant to politics affect citizens’ political opinions? A growing literature suggests that such events, such as athletic competitions and shark attacks, shape political preferences, raising concerns about citizen competence. The researchers offer a framework for studying these kinds of effects on preferences. The researchers find that irrelevant events can influence attitudes, mood, and public declarations. However, they also find that, when it comes to political attitudes, the irrelevant event effects appear to be short-lived. They conclude that, despite their demonstration of irrelevant event effects, it is premature to conclude such events play a substantial role in affecting citizens’ political opinions.</p>
+      </mj-text>
+      <mj-button align='left' font-family="Arial, sans-serif" background-color="#836EAA" color="white"  href='http://www.ipr.northwestern.edu/faculty-experts/faculty-honors-media-coverage/2015-faculty-honors.html'>Read more IPR working papers</mj-button>
+    </mj-column>
+  </mj-section>
+
+  <!-- Events -->
+  <mj-section full-width='full-width' background-color='#D8D6D6'>
+    <mj-column padding-bottom='30px'>
+      <mj-text>
+        <h1>Upcoming Events</h1>
+      </mj-text>
+      <mj-raw>
+        <table width='100%' style='margin: 20px; text-align: center; color: white; font-family: Arial, sans-serif;'>
+          <tr>
+            <td height='28px' width='60px' style='padding-top: 4px; background-color: #4E2A84;'>Feb</td>
+            <td rowspan='2' style='color: #000; text-align: left; padding-left: 20px;'><a href="#" style="color: black; text-decoration: none; font-size:15px;">"Do Violent Videogames Make People Read More > Violent?” by Larry Hedges (IPR/Statistics)</a></td>
+          </tr>
+          <tr>
+            <td height='32px' width='60px' style='font-size: 24px; font-weight:bold; background-color: #4E2A84;'>14</td>
+          </tr>
+        </table>
+      </mj-raw>
+      <mj-raw>
+        <table width='100%' style='margin: 20px; text-align: center; color: white; font-family: Arial, sans-serif;'>
+          <tr>
+            <td height='28px' width='60px' style='padding-top: 4px; background-color: #4E2A84;'>Feb</td>
+            <td rowspan='2' style='color: #000; text-align: left; padding-left: 20px;'><a href="#" style="color: black; text-decoration: none; font-size:15px;">"Evaluation of the Teacher Incentive Fund: Implementation and Impacts of Pay-for-Performance  after Two Years” by Jill Constantine (Vice President, Mathematica Policy Research)</a></td>
+          </tr>
+          <tr>
+            <td height='32px' width='60px' style='font-size: 24px; font-weight:bold; background-color: #4E2A84;'>21</td>
+          </tr>
+        </table>
+      </mj-raw>
+      <mj-raw>
+        <table width='100%' style='margin: 20px; text-align: center; color: white; font-family: Arial, sans-serif;'>
+          <tr>
+            <td height='28px' width='60px' style='padding-top: 4px; background-color: #4E2A84;'>Feb</td>
+            <td rowspan='2' style='color: #000; text-align: left; padding-left: 20px;'><a href="#" style="color: black; text-decoration: none; font-size:15px;">"Medicaid and Intergenerational Economic Mobility" by Rourke O'Brien (University of Wisconsin-Madison)</a></td>
+          </tr>
+          <tr>
+            <td height='32px' width='60px' style='font-size: 24px; font-weight:bold; background-color: #4E2A84;'>23</td>
+          </tr>
+        </table>
+      </mj-raw>
+      <mj-raw>
+        <table width='100%' style='margin: 20px; text-align: center; color: white; font-family: Arial, sans-serif;'>
+          <tr>
+            <td height='28px' width='60px' style='padding-top: 4px; background-color: #4E2A84;'>Feb</td>
+            <td rowspan='2' style='color: #000; text-align: left; padding-left: 20px;'><a href="#" style="color: black; text-decoration: none; font-size:15px;">"The Indirect Effects of Educational Expansions: Evidence from a Large Enrollment Increase in STEM Majors" by Nicola Bianchi (Kellogg/IPR)</a></td>
+          </tr>
+          <tr>
+            <td height='32px' width='60px' style='font-size: 24px; font-weight:bold; background-color: #4E2A84;'>31</td>
+          </tr>
+        </table>
+      </mj-raw>
+    </mj-column>
+  </mj-section>
+
+  <!-- Footer -->
+  <mj-section full-width='full-width' background-color="#4E2A84" color='white'>
+    <mj-column>
+      <mj-image align='left' width='200px' src='northwestern-university.png'></mj-image>
+      <mj-text><b>Institute for Policy Research</b><br />2040 Sheridan Rd., Evanston, IL 60208<br />Phone: <a href="tel:847.491.3395" style='color:white;'>847.491.3395</a><br />Fax: <a href="tel:847.491.9916"  style='color:white;'>847.491.9916</a></mj-text>
+    </mj-column>
+    <mj-column>
+      <mj-text align='right'>
+        <a href="http://www.ipr.northwestern.edu/"><img src='home.jpg' width='40px' style='margin-left: 10px;' /></a>
+        <a href="https://www.facebook.com/IPRatNU"><img src='facebook.jpg' width='40px' style='margin-left: 10px;' /></a>
+        <a href="https://twitter.com/IPRatNU"><img src='twitter.jpg' width='40px' style='margin-left: 10px;' /></a>
+      </mj-text>
+    </mj-column>
+  </mj-section>
+
+  <!-- Unsubscribe -->
+  <mj-section padding-top=0 padding-bottom=0>
+    <mj-column padding-top=0 padding-bottom=0>
+      <mj-text>
+        <a href="#" style='color: #716C6B; text-decoration:none;'>Unsubscribe</a>
+      </mj-text>
+    </mj-column>
+  </mj-section>
 
 </mj-body>

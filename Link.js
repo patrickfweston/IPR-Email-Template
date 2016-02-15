@@ -1,65 +1,63 @@
-
+import MJMLColumnElement from './decorators/MJMLColumnElement'
 import React, { Component } from 'react'
-import _ from 'loadash'
-import {
-  MJMLColumnElement,
-  elements,
-  registerElement,
-} from 'mjml'
+import _ from 'lodash'
 
-/*
- * Wrap your dependencies here.
+
+/**
+ * This tag allows you to display the most basic kind of link in your email
  */
-const {
-  text: MjText,
-} = elements;
-
-const NAME = 'link'
-
 @MJMLColumnElement({
   tagName: 'mj-link',
-  content: ' ',
-
-  /*
-   * These are your default css attributes
-   */
+  content: '',
   attributes: {
-    'color': '#424242',
-    'font-family': 'Helvetica',
-    'margin-top': '10px'
+    'align': 'left',
+    'color': '#000000',
+    'font-family': 'Ubuntu, Helvetica, Arial, sans-serif',
+    'font-size': '13px',
+    'line-height': '22px',
+    'padding-bottom': '10px',
+    'padding-left': '25px',
+    'padding-right': '25px',
+    'padding-top': '10px'
   }
 })
 class Link extends Component {
 
-  /*
-   * Build your styling here
-   */
+  static baseStyles = {
+    div: {
+      cursor: 'auto'
+    }
+  };
+
   getStyles() {
     const { mjAttribute, color } = this.props
 
     return _.merge({}, this.constructor.baseStyles, {
-      text: {
-      /*
-       * Get the color attribute
-       * Example: <mj-link color="blue">content</mj-link>
-       */
-        color: mjAttribute('color')
+      div: {
+        color: mjAttribute('locked') ? color : mjAttribute('color'),
+        fontFamily: mjAttribute('font-family'),
+        fontSize: mjAttribute('font-size'),
+        fontStyle: mjAttribute('font-style'),
+        fontWeight: mjAttribute('font-weight'),
+        lineHeight: mjAttribute('line-height'),
+        linkDecoration: mjAttribute('link-decoration')
       }
     })
   }
 
   render() {
+    const { mjContent } = this.props
 
-    const css = this.getStyles(),
-          content = 'Hello World!'
+    this.styles = this.getStyles()
 
     return (
-      <MjText style={ css }>
-        { content }
-      </MjText>
+      <div
+        className="mj-link"
+        dangerouslySetInnerHTML={{ __html: mjContent() }}
+        style={this.styles.div} />
     )
   }
+
 }
 
-registerElement('link', Link)
 export default Link
